@@ -1,0 +1,16 @@
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.csprojAssemblyReference.cache
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.GeneratedMSBuildEditorConfig.editorconfig
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.AssemblyInfoInputs.cache
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.AssemblyInfo.cs
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.csproj.CoreCompileInputs.cache
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.exe
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.deps.json
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.runtimeconfig.json
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.runtimeconfig.dev.json
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.dll
+C:\pbo\ePhone\bin\Debug\net5.0\ref\ePhone.dll
+C:\pbo\ePhone\bin\Debug\net5.0\ePhone.pdb
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.dll
+C:\pbo\ePhone\obj\Debug\net5.0\ref\ePhone.dll
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.pdb
+C:\pbo\ePhone\obj\Debug\net5.0\ePhone.genruntimeconfig.cache
