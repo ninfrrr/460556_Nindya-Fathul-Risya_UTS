@@ -97,12 +97,6 @@ namespace ePhone
                 break;
             }
         }
-        public void alamat()
-        {
-            Console.WriteLine("\nMasukkan Alamat Anda:");
-            string alamat1 = Console.ReadLine();
-            Console.WriteLine("\n\nPRODUK AKAN DIKIRIMKAN KE ALAMAT: " + alamat1);
-        }
     }
 
 }

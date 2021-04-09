@@ -6,30 +6,45 @@ namespace ePhone
     {
         public void format_order()
         {
-            
+            name();
+            nohp();
+            alamat();
         }
-        public void name(string nama)
+        public void name()
         {
-            Console.WriteLine("Masukkan nama anda: ");
+            Console.WriteLine("\nMasukkan nama lengkap anda: ");
             string input_nama = Console.ReadLine();
         }
-        private void nohp(int nomor)
+        private void nohp()
         {
-            Console.WriteLine("Masukkan nomor handphone anda: ");
-            int nomor1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\nMasukkan nomor handphone anda: ");
+            long nomor1 = Convert.ToInt64(Console.ReadLine());
         }
         public void alamat()
         {
-            Console.WriteLine("\nMohon masukkan Alamat Anda\n");
-            Console.WriteLine("Nama Jalan: \n");
-            Console.WriteLine("RT/RW: \n");
-            Console.WriteLine("Kelurahan: \n");
-            Console.WriteLine("Kecamatan: \n");
-            Console.WriteLine("Kode pos: \n");
-            Console.WriteLine("Provinsi: \n");
-            Console.WriteLine("Kota: \n");
+            Console.WriteLine("\n\tMohon masukkan alamat lengkap Anda");
+            Console.WriteLine("\nNama Jalan: ");
             string alamat1 = Console.ReadLine();
-            Console.WriteLine("\n\nPRODUK AKAN DIKIRIMKAN KE ALAMAT: " + alamat1);
+            Console.WriteLine("\nRT/RW: ");
+            string alamat2 = Console.ReadLine();
+            Console.WriteLine("\nKelurahan: ");
+            string alamat3 = Console.ReadLine();
+            Console.WriteLine("\nKecamatan: ");
+            string alamat4 = Console.ReadLine();
+            Console.WriteLine("\nKabupaten/Kota: ");
+            string alamat5 = Console.ReadLine();
+            Console.WriteLine("\nProvinsi: ");
+            string alamat6 = Console.ReadLine();
+            Console.WriteLine("\nKode pos: ");
+            string alamat7 = Console.ReadLine();
+            
+            name();
+            string input_nama = Console.ReadLine();
+            Console.WriteLine("\n\nPRODUK AKAN DIKIRIMKAN ATAS NAMA: " + input_nama);
+            nohp();
+            long nomor1 = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("\n\nDENGAN NOMOR HP: " + nomor1);
+            Console.WriteLine("\n\nPRODUK AKAN DIKIRIMKAN KE ALAMAT: \n" + alamat1 + ", " + alamat2 + ", " + alamat3 +", " + alamat4 +", " + alamat5 +", " + alamat6 + ", " + alamat7 + ".\n");
         }
     }
 }
