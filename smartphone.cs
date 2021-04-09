@@ -5,13 +5,14 @@ namespace ePhone
     public class smartphone
     {
 
-        public void displayList()
+        public void displayList() //method untuk menampilkan varian seri yang ada
         {
             Console.WriteLine("\n1. S21 \n2. S20 \n3. S10");
         }
-        public void pilihan(int milih)
+        public void pilihan(int milih) //method untuk menampilkan pilihan apa saja yang tersedia
         {
             int pilihan = milih;
+            //
             switch(pilihan)
             {
                 case 1: 
@@ -97,6 +98,7 @@ namespace ePhone
                 break;
             }
         }
+        
     }
 
 }
