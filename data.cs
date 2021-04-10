@@ -2,8 +2,9 @@ using System;
 
 namespace ePhone
 {
-    public class data
+    public class data : customer //inheritance
     {
+        //field
         private string nama;
         private string nohp;
         private string alamat1;
@@ -14,7 +15,13 @@ namespace ePhone
         private string alamat6;
         private string alamat7;
 
-        public data(string nama, string nohp, string alamat1, string alamat2, string alamat3, string alamat4, string alamat5, string alamat6, string alamat7){
+        public data() //polymorphism static
+        {
+
+        }
+
+        public data(string nama, string nohp, string alamat1, string alamat2, string alamat3, string alamat4, string alamat5, string alamat6, string alamat7) //polymorphism static
+        {
             this.nama = nama;
             this.nohp = nohp;
             this.alamat1 = alamat1;
@@ -86,7 +93,5 @@ namespace ePhone
         {
             return alamat7;
         }
-        
-        
     }
 }

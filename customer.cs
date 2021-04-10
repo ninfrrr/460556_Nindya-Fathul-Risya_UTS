@@ -1,5 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
-using System.Data;
 using System;
 
 namespace ePhone
@@ -8,24 +6,28 @@ namespace ePhone
     {
         public void searchPhone()
         {
-            Console.WriteLine("Galaxy S Series apa yang anda cari?");
+            Console.WriteLine("=====Galaxy S Series apa yang anda cari?=====");
             var phone = new smartphone();
-            phone.displayList();
-            Console.WriteLine("\nMasukkan pilihan anda:");
+            phone.displayList(); //memanggil method displayList dari class smartphone
+            Console.Write("\nMasukkan pilihan anda: ");
             string pilihanTemp = Console.ReadLine();
             int choose = Convert.ToInt32(pilihanTemp);
-            phone.pilihan(choose);
-            Console.WriteLine("\n\tApakah anda yakin ingin memesan ini? (ya/tidak)");
+            phone.pilihan(choose); //memanggil method pilihan dari class smartphone
+            Console.Write("\nApakah anda yakin ingin memesan ini? (ya/tidak) ");
             string yakin = Console.ReadLine();
-            if (yakin == "ya")
+            if (yakin == "ya" || yakin == "Ya" || yakin == "YA" || yakin == "yA")
             {
                 var pesen = new order();
                 pesen.format_order();    
             }
-            else if (yakin == "tidak")
+            else if (yakin == "tidak" || yakin == "Tidak" || yakin == "TIDAK")
             {
                 searchPhone();
             }        
+            var pay = new payment();
+            pay.all_methods();
+            var lain = new otherVar();
+            lain.other();
         }
     }
 }
